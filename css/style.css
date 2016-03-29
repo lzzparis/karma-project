@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: LightGray;
     font-family:Roboto,Arial, san-serif;
@@ -23,6 +30,7 @@ a {
 
 }
 
+/*course doesn't float this*/
 .menu-bar img {
 	display:inline-block;
 	float:left;
@@ -49,6 +57,7 @@ a {
 	font-weight: 500;
 }
 
+/*course uses li:hover*/
 .links a:hover {
 	color:#000;
 }
