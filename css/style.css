@@ -1,6 +1,54 @@
 body {
     background-color: LightGray;
+    font-family:Roboto,Arial, san-serif;
 }
-div {
-    border: 1px solid Chocolate;
+
+a {
+	text-decoration: none;
+}
+
+.menu-bar {
+	position:fixed;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background-color: white;
+
+}
+
+.middle-section {
+	width:60%;
+	margin:0 auto;
+	padding:0px 15px;
+
+}
+
+.menu-bar img {
+	display:inline-block;
+	float:left;
+	padding:0px;
+	width:26px;
+	height:70px;
+}
+
+.menu-bar ul {
+	float:right;
+}
+.menu-bar li {
+	display:inline-block;
+	margin:0.75em;
+	padding:0px;
+	font-size: 1.05em;
+}
+
+.links a {
+	color:#888;
+}
+.links .active{
+	color:#555;
+	font-weight: 500;
+}
+
+.links a:hover {
+	color:#000;
 }
