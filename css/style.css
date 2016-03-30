@@ -24,7 +24,7 @@ a {
 }
 
 .middle-section {
-	width:60%;
+	width:57rem;
 	margin:0 auto;
 	padding:0px 15px;
 
@@ -61,3 +61,43 @@ a {
 .links a:hover {
 	color:#000;
 }
+
+.masthead {
+	margin:0em;
+	padding:16rem 0em;
+	background-image: url("../images/back.jpg");
+	background-size: cover;
+	text-align:center;
+	color:#fff;
+}
+.masthead h1 {
+	margin:1rem 0rem;
+	padding:0rem;
+	font-size:3.2em;
+	font-weight: 300;
+}
+.masthead h2 {
+	margin:1rem 0rem;
+	font-size:1.5em;
+	font-weight: 300;
+}
+
+.button {
+	margin:1rem auto;
+	padding:0.8em;
+	width:10rem;
+	background-color: #f15a29;
+	font-size:1.2em;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color: #d9400e;
+	cursor:pointer;
+}
+.button p {
+	margin:0px;
+	padding:0px;
+}
+
+
