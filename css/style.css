@@ -23,7 +23,7 @@ a {
 
 }
 
-.middle-section {
+.content {
 	width:57rem;
 	margin:0 auto;
 	padding:0px 15px;
@@ -82,17 +82,19 @@ a {
 	font-weight: 300;
 }
 
-.button {
+.masthead button {
 	margin:1rem auto;
-	padding:0.8em;
+	padding:1rem 1.5rem;
 	width:10rem;
 	background-color: #f15a29;
-	font-size:1.2em;
+	border:0px solid #f15a29;
 	border-radius: 5px;
+	color:#fff;
+	font-size:1.2em;
 }
-
 .button:hover {
 	background-color: #d9400e;
+	border:0px solid  #d9400e;
 	cursor:pointer;
 }
 .button p {
