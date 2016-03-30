@@ -24,7 +24,7 @@ h1 {
 	padding:0px;
 	width:100%;
 	background-color: white;
-
+	z-index: 99999;
 }
 
 .content {
@@ -112,6 +112,7 @@ h1 {
 	font-size:3em;
 	font-weight: 300;
 	color: #444;
+
 }
 .icon {
 	width:33%;
